@@ -1,0 +1,50 @@
+Topic 1 Top Words:
+ 	 Highest Prob: women, men, can, woman, will, man, sexual, sex, one, pill, want, think, male, red, like 
+ 	 FREX: femin, feminist, mate, christian, promiscu, infidel, hypergami, america, strategi, monogam, american, societi, transgend, long-term, individu 
+ 	 Lift: “everi, abraham, baptist, biden, clickbait, cnn, counti, deduc, feder, feminism”, formless, httpsdoiorg, hymen, immigr, ken 
+ 	 Score: marriag, men, promiscu, femin, hypergami, patern, transgend, sexual, infidel, christian, schmitt, america, american, societi, rpw 
+Topic 2 Top Words:
+ 	 Highest Prob: girl, just, get, like, women, fuck, time, will, guy, can, want, say, friend, dont, shit 
+ 	 FREX: intern, club, approach, girl, chick, shes, number, cold, invit, test, bang, escal, venu, tinder, danc 
+ 	 Lift: -someth, -win, “’d, “wake, “yea, actuari, admonish, ambigu, ankl, anywaythi, appart, asperg, attractionthi, barclub, benevol 
+ 	 Score: intern, fuck, girl, bang, venu, tribe, ioi, forum, -site, club, forumsredhttpswwwforumsreditheredpil, httpswwwtrpred, chick, pussi, subredditmessagecomposetortheredpil 
+Topic 3 Top Words:
+ 	 Highest Prob: cook, make, can, like, one, get, just, eat, thing, meal, day, also, recip, food, use 
+ 	 FREX: veggi, recip, colombia, cook, chicken, colombian, dish, meal, kitchen, lid, bake, rice, ingredi, iud, decor 
+ 	 Lift: anabol, applianc, atv, bacon, bagel, batter, bean, brainstorm, brisket, casserol, cheapli, chili, coffeedrink, cookbook, cooker 
+ 	 Score: pasta, rice, cook, colombia, veggi, iud, cookbook, chicken, flavour, meal, dish, tomato, colombian, cuisin, broccoli 
+Topic 4 Top Words:
+ 	 Highest Prob: work, kid, want, husband, time, get, can, make, home, like, just, will, year, famili, dont 
+ 	 FREX: kid, children, mom, babi, home, husband, child, support, career, parent, mother, school, dad, famili, job 
+ 	 Lift: -ish, administr, airplan, attorney, baby’, babysitt, beyou, bleak, canal, custodi, deleg, dentist, disciplinari, disclosur, district 
+ 	 Score: husband, marriag, children, work, kid, divorc, marri, custodi, homemak, home, pregnant, child, nanni, sahm, motherhood 
+Topic 5 Top Words:
+ 	 Highest Prob: get, can, will, time, work, day, like, thing, feel, just, make, want, dont, start, game 
+ 	 FREX: figur, dopamin, porn, gym, circuit, workout, calori, weight, lift, exercis, bench, motiv, reward, muscl, video 
+ 	 Lift: elat, instal, linguist, loot, neurotransmitt, overeat, prs, quad, superset, tricep, vidya, bench, -train, “success, addl 
+ 	 Score: figur, dopamin, calori, circuit, porn, gym, rep, weight, week, workout, circuitri, diet, bench, work, exercis 
+Topic 6 Top Words:
+ 	 Highest Prob: pleas, contact, moder, question, action, perform, bot, automat, new, concern, submiss, remov, subredditmessagecomposetortheredpil, littl, sidebar 
+ 	 FREX: karma, mod, rtheredpil, decisionhttpswwwredditcomrtheredpillcommentskggshittoavoidsayinginmodmail, submiss, rredpillwomen, remov, moder, contact, lurk, sidebar, pleas, concern, bot, account 
+ 	 Lift: adviceremovedyour, concernsyour, liferemovedyour, meremovedyour, removedyour, asktrphttpswwwforumsredpostphpforumasktrp, concernscoincid, decisionhttpswwwredditcomrtheredpillcommentskggshittoavoidsayinginmodmail, doomedremovedyour, doremovedyour, essentialsremovedyour, gameremovedyour, girlsremovedyour, itremovedyour, karma 
+ 	 Score: karma, decisionhttpswwwredditcomrtheredpillcommentskggshittoavoidsayinginmodmail, rtheredpil, mod, subredditmessagecomposetortheredpil, submiss, rredpillwomen, contact, sidebar, bot, subredditmessagecomposetorredpillwomen, lurk, perform, automat, userremovedyour 
+Topic 7 Top Words:
+ 	 Highest Prob: women, get, like, fuck, just, life, pill, will, guy, can, want, girl, dont, make, post 
+ 	 FREX: dump, beta, dick, alpha, neurotic, trp, frame, laid, weak, pill, bullshit, fuck, pussi, hoe, fight 
+ 	 Lift: “beta”, “date, arbitrari, bmap_df(stm0prv_effects$tables, ~ .x)atshit, bentley, boi, boner, bruh, buffet, burnout, chimpanze, cringi, dubai, dupe, encod 
+ 	 Score: dump, fuck, alpha, tribe, beta, forum, -site, forumsredhttpswwwforumsreditheredpil, httpswwwtrpred, dick, neurotic, subredditmessagecomposetortheredpil, pussi, brows, trp 
+Topic 8 Top Words:
+ 	 Highest Prob: look, like, get, hair, make, can, just, feel, think, good, also, attract, tri, even, thing 
+ 	 FREX: hair, makeup, skin, wear, color, channel, blond, compliment, cute, cloth, nail, tone, boob, dress, feminin 
+ 	 Lift: “cute”, “tri, accentu, amber, astronom, asymmetri, audrey, balayag, beachbodi, bleach, bombshel, boob, bounci, brainless, bun 
+ 	 Score: channel, hair, moistur, skin, makeup, bun, blond, salon, headband, cur, skincar, spf, curl, dye, gel 
+Topic 9 Top Words:
+ 	 Highest Prob: can, will, love, men, feel, man, like, women, need, want, thing, emot, woman, relationship, make 
+ 	 FREX: emot, therapi, therapist, trust, anger, love, abus, mistak, trauma, angri, valu, mgtow, alpha, other, trait 
+ 	 Lift: insignific, mantain, marriagerelationship, polygraph, rectifi, abrupt, apathet, bind, black--whit, blossom, casey, catastroph, copyright, cosmo, dissect 
+ 	 Score: alpha, attract, therapi, men, husband, love, can, mgtow, woman, therapist, valu, relationship, anger, trauma, behavior 
+Topic 10 Top Words:
+ 	 Highest Prob: want, like, just, date, relationship, guy, time, get, feel, know, dont, think, one, say, thing 
+ 	 FREX: date, relationship, hes, commit, met, boyfriend, meet, serious, wait, guy, boundari, flag, friendship, ask, sex 
+ 	 Lift: “let, “relationship”, bfs, bye, concernsh, ex’, feelings”, hon, jelous, phobic, redirect, screenshot, standart, whomev, “sorri 
+ 	 Score: user, relationship, commit, marriag, date, talk, hes, repli, marri, partner, say, friendship, boundari, kiss, rpw 

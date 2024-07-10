@@ -114,7 +114,7 @@ docs <- pres_out$documents
 vocab <- pres_out$vocab
 meta <- pres_out$meta
 
-
+#--------Determining the Topic Model---------#
 install.packages("geometry")
 install.packages(c("Rtsne", "rsvd"))
 
@@ -124,37 +124,95 @@ set.seed(123)
 # if I get rid of the prevalence line, can do logistic regression or any kind of classification
 #get rid of one of the topics before doing a classification (k-1) topics; svm, rf
 # deep learning cnn
-pres_stm <- stm(docs, vocab, K = 0,
-                #prevalence = ~ as.factor(source), 
+
+# k = 0 & prevalence
+pill_stm0prv <- stm(docs, vocab, K = 0,
+                prevalence = ~ as.factor(source), 
                 data = meta,
                 init.type =  "Spectral")
 
 # Create a text file to look at the topics
-sink("pres_stm_terms.txt")
-labelTopics(pres_stm, n = 15)
+sink("pill_stm0prv_terms.txt")
+labelTopics(pill_stm0prv, n = 15)
 sink()
 
-
-pres_stm0 <- stm(docs, vocab, K = 0,
+# k = 0 
+pill_stm0 <- stm(docs, vocab, K = 0,
                 #prevalence = ~ as.factor(source), 
                 data = meta,
                 init.type =  "Spectral")
 
+
+
 # Create a text file to look at the topics
-sink("pres_stm0_terms.txt")
-labelTopics(pres_stm0, n = 15)
+sink("pill_stm0_terms.txt")
+labelTopics(pill_stm0, n = 15)
 sink()
 
+# k = 10 & prevalence
+pill_stm10prv <- stm(docs, vocab, K = 10,
+                 prevalence = ~ as.factor(source), 
+                 data = meta,
+                 init.type =  "Spectral")
+
+# Create a text file to look at the topics
+sink("pill_stm10prv_terms.txt")
+labelTopics(pill_stm10prv, n = 15)
+sink()
+
+# k = 30 & prevalence
+pill_stm30prv <- stm(docs, vocab, K = 30,
+                     prevalence = ~ as.factor(source), 
+                     data = meta,
+                     init.type =  "Spectral")
+
+# Create a text file to look at the topics
+sink("pill_stm30prv_terms.txt")
+labelTopics(pill_stm30prv, n = 15)
+sink()
+
+# k = 50 & prevalence
+pill_stm50prv <- stm(docs, vocab, K = 50,
+                     prevalence = ~ as.factor(source), 
+                     data = meta,
+                     init.type =  "Spectral")
+
+# Create a text file to look at the topics
+sink("pill_stm50prv_terms.txt")
+labelTopics(pill_stm30prv, n = 15)
+sink()
+
+#-----#-----#-----#-----#-----#-----#-----#
+
+#Results of the qualitative content analysis: 
+#72 of 87 topics were retained
+# 9 of the 10 topics were retained.
 
 # effects of the source on the topics
-pill_stm_effects <- estimateEffect(1:94 ~ as.factor(source),
-                                   stmobj = pres_stm,
+pill_stm0prv_effects <- estimateEffect(1:87 ~ as.factor(source),
+                                   stmobj = pill_stm0prv,
                                    metadata = meta,
                                    uncertainty = "None")
 
-sink("pill_stm_effects.txt")
-summary(pill_stm_effects)
+sink("pill_stm0prv_effects.txt")
+summary(pill_stm0prv_effects)
 sink()
+
+stm0prv_effects <- summary(pill_stm0prv_effects)
+typeof(stm0prv_effects)
+
+
+retain_sig_topics <- \(totalTopics){
+  
+  p_value <- stm0prv_effects %>% 
+  pluck("tables", totalTopics, 8)
+ tibble(p_value, topic_no = 1:totalTopics)
+
+}
+
+
+stm0prv_effects 
+  pluck(tables)
 
 
 #Highest probability of observing a work
@@ -163,13 +221,14 @@ sink()
 
 
 # Create matrix of topic scores/values
-pill_gamma <- tidy(pres_stm, matrix = "gamma")
+pill_stm0 <- tidy(pill_stm0, matrix = "gamma")
 
-pill_gamma <- pill_gamma %>%
+pill_stm0 <- pill_stm0 %>%
   spread(key = topic, value = gamma)
 
+# source ~ all cols - 1
 pres_reg <- cbind(meta, 
-                  pill_gamma[,2:95])
+                  pill_stm0[,2:95])
 
 View(pres_reg )
 
